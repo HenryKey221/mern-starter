@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === 'production') {
           "config": "./webpack.config.babel.js",
           "verbose": false
         }
-      ]
+      ]   
     ]
   });
   require('babel-polyfill');
